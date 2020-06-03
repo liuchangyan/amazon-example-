@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-9538f407d04142d394338e25be8d2532
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value teresa for parameter name KeyPairName
+does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                      ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------------  -------------------------------------------------------------------------------------------------
+2020-06-02 01:49:24.560000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-9538f407d04142d394338e25be8d2532  Parameter validation failed: parameter value teresa for parameter name KeyPairName does not exist
+2020-06-02 01:49:21.721000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-9538f407d04142d394338e25be8d2532  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 02. June 2020 09:50AM
+-----------------------------------------------------------------------------
+

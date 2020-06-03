@@ -1,0 +1,13 @@
+project:
+  name: taskcat-example
+  regions:
+    - cn-northwest-1
+    - cn-north-1
+  parameters:
+    CrossAccountRoles: ""
+    Regions: ""
+tests:
+  sqs-test:
+    regions:
+      - cn-northwest-1
+    template: ./serverless-image-handler.yml

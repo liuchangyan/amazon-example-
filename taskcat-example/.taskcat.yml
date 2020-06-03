@@ -1,0 +1,15 @@
+project:
+  name: taskcat-example
+  regions:
+    - cn-northwest-1
+    - cn-north-1
+  parameters:
+    CrossAccountRoles: ""
+    Regions: ""
+    StartedTags: ""
+    StoppedTags: ""
+tests:
+  sqs-test:
+    regions:
+      - cn-northwest-1
+    template: ./instance-scheduler.yml

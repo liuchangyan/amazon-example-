@@ -1,0 +1,17 @@
+
+project:
+  name: mongodb-taskcat-example
+  regions:
+    - cn-northwest-1
+    - cn-north-1
+tests:
+  my-test:
+    regions:
+      - cn-north-1
+    parameters:
+      KeyPairName : "teresa"
+      RemoteAccessCIDR: "0.0.0.0/0"
+      AvailabilityZones: "cn-north-1a,cn-north-1b"
+      NumberOfAZs: "2"
+      MongoDBAdminPassword: "Aa112233"
+    template: ./mongodb-master.template

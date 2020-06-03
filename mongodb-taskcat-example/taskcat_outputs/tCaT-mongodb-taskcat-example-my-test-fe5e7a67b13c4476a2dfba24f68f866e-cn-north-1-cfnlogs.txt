@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-fe5e7a67b13c4476a2dfba24f68f866e
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value teresa-test for parameter name
+KeyPairName does not exist, parameter value cn-north-1b" for parameter name
+AvailabilityZones does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                      ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2020-06-01 15:32:58.103000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-fe5e7a67b13c4476a2dfba24f68f866e  Parameter validation failed: parameter value teresa-test for parameter name KeyPairName does not exist, parameter value cn-north-1b" for parameter name AvailabilityZones does not exist
+2020-06-01 15:32:55.286000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-fe5e7a67b13c4476a2dfba24f68f866e  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 01. June 2020 11:34PM
+-----------------------------------------------------------------------------
+

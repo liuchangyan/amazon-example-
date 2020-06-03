@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------------
+Region: cn-northwest-1
+StackName: tCaT-taskcat-example-sqs-test-d0cb6e8b36674be0878a3886f80cb476
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [Main].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                               ResourceStatusReason
+--------------------------------  ------------------  --------------------------  --------------------------------------------------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2020-05-30 11:55:02.838000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-taskcat-example-sqs-test-d0cb6e8b36674be0878a3886f80cb476  The following resource(s) failed to create: [Main].
+2020-05-30 11:55:01.907000+00:00  CREATE_FAILED       AWS::Lambda::Function       Main                                                            1 validation error detected: Value 'tCaT-taskcat-example-sqs-test-d0cb6e8b36674be0878a3886f80cb476-InstanceSchedulerMain' at 'functionName' failed to satisfy constraint: Member must have length less than or equal to 64 (Service: AWSLambdaInternal; Status Code: 400; Error Code: InvalidParameterValueException; Request ID: 0a427a3c-b752-4425-a2a7-baae88fc039c)
+2020-05-30 11:54:48.625000+00:00  CREATE_IN_PROGRESS  AWS::Lambda::Function       Main
+2020-05-30 11:54:45.117000+00:00  CREATE_COMPLETE     AWS::Events::Rule           SchedulerRule
+2020-05-30 11:54:31.662000+00:00  CREATE_COMPLETE     AWS::IAM::Policy            SchedulerPolicy
+2020-05-30 11:54:21.460000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy            SchedulerPolicy                                                 Resource creation Initiated
+2020-05-30 11:54:20.596000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy            SchedulerPolicy
+2020-05-30 11:54:16.847000+00:00  CREATE_COMPLETE     AWS::DynamoDB::Table        ConfigTable
+2020-05-30 11:54:16.093000+00:00  CREATE_COMPLETE     AWS::DynamoDB::Table        StateTable
+2020-05-30 11:53:56.392000+00:00  CREATE_COMPLETE     AWS::IAM::Role              SchedulerRole
+2020-05-30 11:53:56.206000+00:00  CREATE_COMPLETE     AWS::SNS::Topic             InstanceSchedulerSnsTopic
+2020-05-30 11:53:45.943000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table        ConfigTable                                                     Resource creation Initiated
+2020-05-30 11:53:45.699000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic             InstanceSchedulerSnsTopic                                       Resource creation Initiated
+2020-05-30 11:53:45.692000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table        ConfigTable
+2020-05-30 11:53:45.435000+00:00  CREATE_COMPLETE     AWS::Logs::LogGroup         SchedulerLogGroup
+2020-05-30 11:53:45.361000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic             InstanceSchedulerSnsTopic
+2020-05-30 11:53:45.229000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table        StateTable                                                      Resource creation Initiated
+2020-05-30 11:53:45.039000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              SchedulerRole                                                   Resource creation Initiated
+2020-05-30 11:53:44.992000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup         SchedulerLogGroup                                               Resource creation Initiated
+2020-05-30 11:53:44.857000+00:00  CREATE_IN_PROGRESS  AWS::DynamoDB::Table        StateTable
+2020-05-30 11:53:44.679000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              SchedulerRole
+2020-05-30 11:53:44.550000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup         SchedulerLogGroup
+2020-05-30 11:53:44.456000+00:00  CREATE_IN_PROGRESS  AWS::Events::Rule           SchedulerRule                                                   Resource creation Initiated
+2020-05-30 11:53:44.202000+00:00  CREATE_IN_PROGRESS  AWS::Events::Rule           SchedulerRule
+2020-05-30 11:53:39.968000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-taskcat-example-sqs-test-d0cb6e8b36674be0878a3886f80cb476  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Saturday, 30. May 2020 07:57PM
+-----------------------------------------------------------------------------
+

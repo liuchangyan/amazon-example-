@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+Region: cn-northwest-1
+StackName: tCaT-mongodb-taskcat-example-my-test-3a55e45d3a024c0d8337e97581cd805b
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value cn-northwest-1c" for parameter name
+AvailabilityZones does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                      ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------------  -----------------------------------------------------------------------------------------------------------------
+2020-06-01 15:22:35.871000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-3a55e45d3a024c0d8337e97581cd805b  Parameter validation failed: parameter value cn-northwest-1c" for parameter name AvailabilityZones does not exist
+2020-06-01 15:22:33.406000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-3a55e45d3a024c0d8337e97581cd805b  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 01. June 2020 11:23PM
+-----------------------------------------------------------------------------
+
