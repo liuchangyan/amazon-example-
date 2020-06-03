@@ -1,0 +1,15 @@
+project:  # [REQUIRED] Project specific configuration section
+  # [REQUIRED] Project name, used as s3 key prefix when uploading objects
+  name: test-project
+  regions:
+    - cn-northwest-1
+    - cn-north-1
+
+tests:  # [REQUIRED] Test definition section
+  my-test:
+    regions:
+      - cn-northwest-1
+
+    tags:
+      template: ./templates/Instance-Scheduler.template
+
