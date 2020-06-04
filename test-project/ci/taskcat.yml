@@ -1,0 +1,21 @@
+---
+global:
+  owner: lchangya@amazon.com
+  qsname: test-project
+  regions:
+    - cn-north-1
+    - cn-northwest-1
+  s3_bucket: liu-bucket
+  reporting: true           
+
+tests:
+  taskcat-json:
+    parameter_input: input.json
+    regions:
+      - cn-northwest-1
+    template_file: Instance-Scheduler.template
+
+
+
+
+
