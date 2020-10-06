@@ -1,0 +1,14 @@
+CrossAccountRoles: ''
+DefaultTimezone: UTC
+LogRetentionDays: '30'
+Regions: ''
+ScheduleLambdaAccount: 'Yes'
+SchedulerActive: 'Yes'
+SchedulerFrequency: '1'
+SchedulingActive: Both
+SendAnonymousData: 'Yes'
+StartedTags: ''
+StoppedTags: ''
+TagName: Schedule
+Trace: 'Yes'
+UseCloudWatchMetricss: 'Yes'

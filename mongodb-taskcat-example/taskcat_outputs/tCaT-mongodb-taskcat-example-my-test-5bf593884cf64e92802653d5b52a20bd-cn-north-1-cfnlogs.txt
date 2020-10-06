@@ -1,0 +1,385 @@
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                      ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------------  ---------------------------
+2020-06-04 10:50:43.701000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd
+2020-06-04 10:50:40.647000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  MongoDBStack
+2020-06-04 10:43:09.110000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  MongoDBStack                                                           Resource creation Initiated
+2020-06-04 10:43:08.258000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  MongoDBStack
+2020-06-04 10:43:04.687000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  BastionStack
+2020-06-04 10:37:49.646000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack                                                           Resource creation Initiated
+2020-06-04 10:37:48.757000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack
+2020-06-04 10:37:45.097000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  VPCStack
+2020-06-04 10:34:13.079000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack                                                               Resource creation Initiated
+2020-06-04 10:34:12.012000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2020-06-04 10:34:06.052000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-VPCStack-1N41NHB9LILB7
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                                                                             ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  --------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:37:32.749000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-VPCStack-1N41NHB9LILB7
+2020-06-04 10:37:28.464000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-04 10:37:27.904000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-04 10:37:13.061000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute                                                                          Resource creation Initiated
+2020-06-04 10:37:12.505000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute                                                                          Resource creation Initiated
+2020-06-04 10:37:12.386000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-04 10:37:11.892000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-04 10:37:08.675000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway1
+2020-06-04 10:37:08.335000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway2
+2020-06-04 10:35:20.308000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1                                                                                   Resource creation Initiated
+2020-06-04 10:35:20.109000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2                                                                                   Resource creation Initiated
+2020-06-04 10:35:19.762000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1
+2020-06-04 10:35:19.574000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2
+2020-06-04 10:35:18.418000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-04 10:35:17.922000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-04 10:35:17.345000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-04 10:35:17.066000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-04 10:35:15.986000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT1EIP
+2020-06-04 10:35:15.659000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PublicSubnetRoute
+2020-06-04 10:35:15.579000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT2EIP
+2020-06-04 10:35:02.837000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation                                                          Resource creation Initiated
+2020-06-04 10:35:02.556000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation                                                            Resource creation Initiated
+2020-06-04 10:35:01.989000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-04 10:35:01.903000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation                                                          Resource creation Initiated
+2020-06-04 10:35:01.612000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation                                                            Resource creation Initiated
+2020-06-04 10:35:01.585000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-04 10:35:01.086000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-04 10:35:00.686000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-04 10:35:00.289000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute                                                                             Resource creation Initiated
+2020-06-04 10:34:59.960000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP                                                                                       Resource creation Initiated
+2020-06-04 10:34:59.761000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute
+2020-06-04 10:34:59.460000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP
+2020-06-04 10:34:59.349000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP                                                                                       Resource creation Initiated
+2020-06-04 10:34:58.845000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP
+2020-06-04 10:34:57.503000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet1
+2020-06-04 10:34:57.414000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-04 10:34:57.086000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet2
+2020-06-04 10:34:56.965000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-04 10:34:55.714000+00:00  CREATE_COMPLETE     AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-04 10:34:47.061000+00:00  CREATE_COMPLETE     AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-04 10:34:46.731000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint                                                                                 Resource creation Initiated
+2020-06-04 10:34:46.143000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-04 10:34:41.975000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-04 10:34:41.855000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-04 10:34:41.823000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-04 10:34:41.224000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1                                                                                 Resource creation Initiated
+2020-06-04 10:34:40.997000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A                                                                               Resource creation Initiated
+2020-06-04 10:34:40.964000+00:00  CREATE_COMPLETE     AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-04 10:34:40.926000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable                                                                     Resource creation Initiated
+2020-06-04 10:34:40.834000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A                                                                               Resource creation Initiated
+2020-06-04 10:34:40.823000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable                                                                     Resource creation Initiated
+2020-06-04 10:34:40.817000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2                                                                                 Resource creation Initiated
+2020-06-04 10:34:40.812000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation                                                                     Resource creation Initiated
+2020-06-04 10:34:40.790000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable                                                                        Resource creation Initiated
+2020-06-04 10:34:40.703000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1
+2020-06-04 10:34:40.557000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-04 10:34:40.508000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-04 10:34:40.451000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-04 10:34:40.432000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-04 10:34:40.327000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-04 10:34:40.280000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2
+2020-06-04 10:34:40.267000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-04 10:34:40.262000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment                                                                          Resource creation Initiated
+2020-06-04 10:34:39.866000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-04 10:34:36.526000+00:00  CREATE_COMPLETE     AWS::EC2::VPC                          VPC
+2020-06-04 10:34:35.847000+00:00  CREATE_COMPLETE     AWS::EC2::InternetGateway              InternetGateway
+2020-06-04 10:34:35.798000+00:00  CREATE_COMPLETE     AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-04 10:34:19.976000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions                                                                                   Resource creation Initiated
+2020-06-04 10:34:19.910000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC                                                                                           Resource creation Initiated
+2020-06-04 10:34:19.780000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway                                                                               Resource creation Initiated
+2020-06-04 10:34:19.667000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-04 10:34:19.528000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC
+2020-06-04 10:34:19.429000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway
+2020-06-04 10:34:12.887000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-VPCStack-1N41NHB9LILB7  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-BastionStack-XO8FB6QW68DQ
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                                                                                ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  -----------------------------------------------------------------------------------------------  ---------------------------------------------------------
+2020-06-04 10:42:40.701000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-BastionStack-XO8FB6QW68DQ
+2020-06-04 10:42:37.851000+00:00  CREATE_COMPLETE     AWS::AutoScaling::AutoScalingGroup     BastionAutoScalingGroup
+2020-06-04 10:42:36.865000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup     BastionAutoScalingGroup                                                                          Received SUCCESS signal with UniqueId i-06e2b072dc7abeef0
+2020-06-04 10:40:33.676000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup     BastionAutoScalingGroup                                                                          Resource creation Initiated
+2020-06-04 10:40:33.016000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup     BastionAutoScalingGroup
+2020-06-04 10:40:28.155000+00:00  CREATE_COMPLETE     AWS::AutoScaling::LaunchConfiguration  BastionLaunchConfiguration
+2020-06-04 10:40:27.839000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration  BastionLaunchConfiguration                                                                       Resource creation Initiated
+2020-06-04 10:40:27.349000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration  BastionLaunchConfiguration
+2020-06-04 10:40:23.157000+00:00  CREATE_COMPLETE     AWS::IAM::InstanceProfile              BastionHostProfile
+2020-06-04 10:38:22.505000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile              BastionHostProfile                                                                               Resource creation Initiated
+2020-06-04 10:38:22.179000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile              BastionHostProfile
+2020-06-04 10:38:18.716000+00:00  CREATE_COMPLETE     AWS::IAM::Policy                       BastionHostPolicy
+2020-06-04 10:38:12.151000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          EIP1
+2020-06-04 10:38:10.500000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy                       BastionHostPolicy                                                                                Resource creation Initiated
+2020-06-04 10:38:09.568000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy                       BastionHostPolicy
+2020-06-04 10:38:05.443000+00:00  CREATE_COMPLETE     AWS::IAM::Role                         BastionHostRole
+2020-06-04 10:38:01.085000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                BastionSecurityGroup
+2020-06-04 10:37:59.914000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                BastionSecurityGroup                                                                             Resource creation Initiated
+2020-06-04 10:37:58.573000+00:00  CREATE_COMPLETE     AWS::Logs::MetricFilter                SSHMetricFilter
+2020-06-04 10:37:58.223000+00:00  CREATE_IN_PROGRESS  AWS::Logs::MetricFilter                SSHMetricFilter                                                                                  Resource creation Initiated
+2020-06-04 10:37:57.885000+00:00  CREATE_IN_PROGRESS  AWS::Logs::MetricFilter                SSHMetricFilter
+2020-06-04 10:37:56.026000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                         BastionHostRole                                                                                  Resource creation Initiated
+2020-06-04 10:37:56.022000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          EIP1                                                                                             Resource creation Initiated
+2020-06-04 10:37:55.633000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          EIP1
+2020-06-04 10:37:55.584000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                         BastionHostRole
+2020-06-04 10:37:55.245000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                BastionSecurityGroup
+2020-06-04 10:37:54.532000+00:00  CREATE_COMPLETE     AWS::Logs::LogGroup                    BastionMainLogGroup
+2020-06-04 10:37:54.191000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup                    BastionMainLogGroup                                                                              Resource creation Initiated
+2020-06-04 10:37:53.889000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup                    BastionMainLogGroup
+2020-06-04 10:37:49.463000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-BastionStack-XO8FB6QW68DQ  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-MongoDBStack-3EQS7NO44SW6
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                              LogicalResourceId                                                                                ResourceStatusReason
+--------------------------------  ------------------  ----------------------------------------  -----------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:50:35.730000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-MongoDBStack-3EQS7NO44SW6
+2020-06-04 10:50:33.106000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitCondition        PrimaryReplicaNode0WaitForNodeInstall
+2020-06-04 10:50:31.752000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitCondition        SecondaryReplicaNode1WaitForNodeInstall
+2020-06-04 10:50:31.390000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitCondition        SecondaryReplicaNode0WaitForNodeInstall
+2020-06-04 10:46:42.135000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        PrimaryReplicaNode0WaitForNodeInstall                                                            Resource creation Initiated
+2020-06-04 10:46:41.986000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        PrimaryReplicaNode0WaitForNodeInstall
+2020-06-04 10:46:40.655000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        SecondaryReplicaNode1WaitForNodeInstall                                                          Resource creation Initiated
+2020-06-04 10:46:40.490000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        SecondaryReplicaNode1WaitForNodeInstall
+2020-06-04 10:46:40.378000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        SecondaryReplicaNode0WaitForNodeInstall                                                          Resource creation Initiated
+2020-06-04 10:46:40.226000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitCondition        SecondaryReplicaNode0WaitForNodeInstall
+2020-06-04 10:46:38.641000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                PrimaryReplicaNode0
+2020-06-04 10:46:37.321000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                SecondaryReplicaNode1
+2020-06-04 10:46:36.738000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                SecondaryReplicaNode0
+2020-06-04 10:45:37.029000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                PrimaryReplicaNode0                                                                              Resource creation Initiated
+2020-06-04 10:45:36.165000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                PrimaryReplicaNode0
+2020-06-04 10:45:35.484000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                SecondaryReplicaNode1                                                                            Resource creation Initiated
+2020-06-04 10:45:35.099000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                SecondaryReplicaNode0                                                                            Resource creation Initiated
+2020-06-04 10:45:34.615000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                SecondaryReplicaNode1
+2020-06-04 10:45:34.240000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                SecondaryReplicaNode0
+2020-06-04 10:45:30.955000+00:00  CREATE_COMPLETE     AWS::IAM::InstanceProfile                 MongoDBNodeIAMProfile
+2020-06-04 10:43:39.853000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                   MongoDBServersSecurityGroup
+2020-06-04 10:43:38.472000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServersSecurityGroup                                                                      Resource creation Initiated
+2020-06-04 10:43:33.621000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServersSecurityGroup
+2020-06-04 10:43:30.374000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile                 MongoDBNodeIAMProfile                                                                            Resource creation Initiated
+2020-06-04 10:43:30.356000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                   MongoDBServerSecurityGroup
+2020-06-04 10:43:30.082000+00:00  CREATE_IN_PROGRESS  AWS::IAM::InstanceProfile                 MongoDBNodeIAMProfile
+2020-06-04 10:43:29.078000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServerSecurityGroup                                                                       Resource creation Initiated
+2020-06-04 10:43:26.237000+00:00  CREATE_COMPLETE     AWS::IAM::Role                            MongoDBNodeIAMRole
+2020-06-04 10:43:24.291000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServerSecurityGroup
+2020-06-04 10:43:20.812000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                   MongoDBServerAccessSecurityGroup
+2020-06-04 10:43:20.032000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServerAccessSecurityGroup                                                                 Resource creation Initiated
+2020-06-04 10:43:15.323000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                   MongoDBServerAccessSecurityGroup
+2020-06-04 10:43:15.057000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                            MongoDBNodeIAMRole                                                                               Resource creation Initiated
+2020-06-04 10:43:14.742000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role                            MongoDBNodeIAMRole
+2020-06-04 10:43:14.142000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode0WaitForNodeInstallWaitHandle
+2020-06-04 10:43:14.140000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitConditionHandle  PrimaryReplicaNode0WaitForNodeInstallWaitHandle
+2020-06-04 10:43:14.021000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode0WaitForNodeInstallWaitHandle                                                Resource creation Initiated
+2020-06-04 10:43:14.013000+00:00  CREATE_COMPLETE     AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode1WaitForNodeInstallWaitHandle
+2020-06-04 10:43:13.990000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  PrimaryReplicaNode0WaitForNodeInstallWaitHandle                                                  Resource creation Initiated
+2020-06-04 10:43:13.870000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode1WaitForNodeInstallWaitHandle                                                Resource creation Initiated
+2020-06-04 10:43:13.743000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  PrimaryReplicaNode0WaitForNodeInstallWaitHandle
+2020-06-04 10:43:13.731000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode0WaitForNodeInstallWaitHandle
+2020-06-04 10:43:13.566000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::WaitConditionHandle  SecondaryReplicaNode1WaitForNodeInstallWaitHandle
+2020-06-04 10:43:08.897000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a20bd-MongoDBStack-3EQS7NO44SW6  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                     ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ----------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:27.325000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X
+2020-06-04 10:46:24.732000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:24.338000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                             Resource creation Initiated
+2020-06-04 10:46:23.766000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:20.321000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:04.297000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                   Resource creation Initiated
+2020-06-04 10:46:02.603000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:59.185000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:43.073000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                           Resource creation Initiated
+2020-06-04 10:45:42.561000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:36.857000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                   ResourceStatusReason
+--------------------------------  ------------------  --------------------------  --------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:26.237000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD
+2020-06-04 10:46:23.617000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:23.213000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                           Resource creation Initiated
+2020-06-04 10:46:22.556000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:19.462000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:03.438000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                 Resource creation Initiated
+2020-06-04 10:46:01.590000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:57.745000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:41.516000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                         Resource creation Initiated
+2020-06-04 10:45:40.927000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:35.284000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                     ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ----------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:26.147000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T
+2020-06-04 10:46:23.638000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:23.260000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                             Resource creation Initiated
+2020-06-04 10:46:22.671000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:19.523000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:03.494000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                   Resource creation Initiated
+2020-06-04 10:46:01.729000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:57.761000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:41.714000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                           Resource creation Initiated
+2020-06-04 10:45:41.220000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:34.890000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:51PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                     ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ----------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:27.325000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X
+2020-06-04 10:46:24.732000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:24.338000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                             Resource creation Initiated
+2020-06-04 10:46:23.766000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:20.321000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:04.297000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                   Resource creation Initiated
+2020-06-04 10:46:02.603000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:59.185000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:43.073000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                           Resource creation Initiated
+2020-06-04 10:45:42.561000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:36.857000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52a2-PrimaryReplicaNode0-176HITNPSNY6X  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:52PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                   ResourceStatusReason
+--------------------------------  ------------------  --------------------------  --------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:26.237000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD
+2020-06-04 10:46:23.617000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:23.213000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                           Resource creation Initiated
+2020-06-04 10:46:22.556000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:19.462000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:03.438000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                 Resource creation Initiated
+2020-06-04 10:46:01.590000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:57.745000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:41.516000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                         Resource creation Initiated
+2020-06-04 10:45:40.927000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:35.284000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode1-ABMLJWPWDZD  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:52PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-north-1
+StackName: tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                     ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ----------------------------------------------------------------------------------------------------  ---------------------------
+2020-06-04 10:46:26.147000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T
+2020-06-04 10:46:23.638000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:23.260000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm                                                                             Resource creation Initiated
+2020-06-04 10:46:22.671000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm      NodeInstanceRecoveryAlarm
+2020-06-04 10:46:19.523000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:46:03.494000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance                                                                                   Resource creation Initiated
+2020-06-04 10:46:01.729000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          ReplicaNodeInstance
+2020-06-04 10:45:57.761000+00:00  CREATE_COMPLETE     AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:41.714000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface                                                                           Resource creation Initiated
+2020-06-04 10:45:41.220000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NetworkInterface  ReplicaNodeNetworkInterface
+2020-06-04 10:45:34.890000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-5bf593884cf64e92802653d5b52-SecondaryReplicaNode0-1WGMM61OBAC9T  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 04. June 2020 06:52PM
+-----------------------------------------------------------------------------
+

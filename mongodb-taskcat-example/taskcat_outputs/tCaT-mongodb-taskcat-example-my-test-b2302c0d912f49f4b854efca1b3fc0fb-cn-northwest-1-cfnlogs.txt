@@ -1,0 +1,142 @@
+-----------------------------------------------------------------------------
+Region: cn-northwest-1
+StackName: tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [BastionStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                      ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2020-06-22 01:32:47.252000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb  The following resource(s) failed to create: [BastionStack].
+2020-06-22 01:32:46.389000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  BastionStack                                                           Embedded stack arn:aws-cn:cloudformation:cn-northwest-1:265992558307:stack/tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-BastionStack-158YCXIDF6N3L/395477f0-b428-11ea-b2c5-02181625bf76 was not successfully created: The following resource(s) failed to create: [BastionSecurityGroup, EIP1, BastionHostRole].
+2020-06-22 01:32:24.563000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack                                                           Resource creation Initiated
+2020-06-22 01:32:23.752000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  BastionStack
+2020-06-22 01:32:20.975000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  VPCStack
+2020-06-22 01:28:18.216000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack                                                               Resource creation Initiated
+2020-06-22 01:28:17.287000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2020-06-22 01:28:12.040000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 22. June 2020 09:33AM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-northwest-1
+StackName: tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-VPCStack-Z7EMKC8TSQDD
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                                                                            ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  -------------------------------------------------------------------------------------------  ---------------------------
+2020-06-22 01:31:49.873000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-VPCStack-Z7EMKC8TSQDD
+2020-06-22 01:31:45.527000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-22 01:31:30.597000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-22 01:31:30.174000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute                                                                         Resource creation Initiated
+2020-06-22 01:31:29.677000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-22 01:31:26.352000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway1
+2020-06-22 01:31:15.302000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute                                                                         Resource creation Initiated
+2020-06-22 01:31:14.708000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-22 01:31:11.123000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway2
+2020-06-22 01:29:23.446000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1                                                                                  Resource creation Initiated
+2020-06-22 01:29:23.363000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2                                                                                  Resource creation Initiated
+2020-06-22 01:29:22.997000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1
+2020-06-22 01:29:22.883000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2
+2020-06-22 01:29:20.224000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-22 01:29:20.182000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-22 01:29:20.045000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-22 01:29:19.724000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT2EIP
+2020-06-22 01:29:19.553000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT1EIP
+2020-06-22 01:29:19.388000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-22 01:29:19.196000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PublicSubnetRoute
+2020-06-22 01:29:04.885000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation                                                         Resource creation Initiated
+2020-06-22 01:29:04.868000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation                                                         Resource creation Initiated
+2020-06-22 01:29:04.727000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation                                                           Resource creation Initiated
+2020-06-22 01:29:04.252000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-22 01:29:04.240000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-22 01:29:04.058000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation                                                           Resource creation Initiated
+2020-06-22 01:29:03.946000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-22 01:29:03.861000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute                                                                            Resource creation Initiated
+2020-06-22 01:29:03.721000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP                                                                                      Resource creation Initiated
+2020-06-22 01:29:03.676000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP                                                                                      Resource creation Initiated
+2020-06-22 01:29:03.411000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-22 01:29:03.410000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute
+2020-06-22 01:29:03.311000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP
+2020-06-22 01:29:03.294000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP
+2020-06-22 01:29:00.658000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet2
+2020-06-22 01:29:00.643000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-22 01:29:00.451000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet1
+2020-06-22 01:29:00.382000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-22 01:29:00.015000+00:00  CREATE_COMPLETE     AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-22 01:28:53.378000+00:00  CREATE_COMPLETE     AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-22 01:28:53.058000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint                                                                                Resource creation Initiated
+2020-06-22 01:28:48.100000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-22 01:28:45.429000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-22 01:28:45.091000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-22 01:28:44.876000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-22 01:28:44.700000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment                                                                         Resource creation Initiated
+2020-06-22 01:28:44.695000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2                                                                                Resource creation Initiated
+2020-06-22 01:28:44.692000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A                                                                              Resource creation Initiated
+2020-06-22 01:28:44.673000+00:00  CREATE_COMPLETE     AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-22 01:28:44.562000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable                                                                    Resource creation Initiated
+2020-06-22 01:28:44.546000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation                                                                    Resource creation Initiated
+2020-06-22 01:28:44.514000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1                                                                                Resource creation Initiated
+2020-06-22 01:28:44.365000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2
+2020-06-22 01:28:44.364000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-22 01:28:44.362000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-22 01:28:44.361000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A                                                                              Resource creation Initiated
+2020-06-22 01:28:44.275000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable                                                                       Resource creation Initiated
+2020-06-22 01:28:44.270000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-22 01:28:44.163000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-22 01:28:44.149000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1
+2020-06-22 01:28:44.125000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable                                                                    Resource creation Initiated
+2020-06-22 01:28:43.990000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-22 01:28:43.989000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-22 01:28:43.804000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-22 01:28:40.995000+00:00  CREATE_COMPLETE     AWS::EC2::VPC                          VPC
+2020-06-22 01:28:40.887000+00:00  CREATE_COMPLETE     AWS::EC2::InternetGateway              InternetGateway
+2020-06-22 01:28:40.516000+00:00  CREATE_COMPLETE     AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-22 01:28:25.022000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway                                                                              Resource creation Initiated
+2020-06-22 01:28:24.778000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions                                                                                  Resource creation Initiated
+2020-06-22 01:28:24.709000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway
+2020-06-22 01:28:24.666000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC                                                                                          Resource creation Initiated
+2020-06-22 01:28:24.474000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-22 01:28:24.262000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC
+2020-06-22 01:28:18.041000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-VPCStack-Z7EMKC8TSQDD  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 22. June 2020 09:33AM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: cn-northwest-1
+StackName: tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-BastionStack-158YCXIDF6N3L
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [BastionSecurityGroup, EIP1,
+BastionHostRole].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                                                 ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ------------------------------------------------------------------------------------------------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2020-06-22 01:32:35.397000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-BastionStack-158YCXIDF6N3L  The following resource(s) failed to create: [BastionSecurityGroup, EIP1, BastionHostRole].
+2020-06-22 01:32:34.638000+00:00  CREATE_FAILED       AWS::EC2::SecurityGroup     BastionSecurityGroup                                                                              Resource creation cancelled
+2020-06-22 01:32:30.345000+00:00  CREATE_FAILED       AWS::IAM::Role              BastionHostRole                                                                                   Resource creation cancelled
+2020-06-22 01:32:30.024000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup     BastionSecurityGroup
+2020-06-22 01:32:29.936000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              BastionHostRole
+2020-06-22 01:32:29.896000+00:00  CREATE_FAILED       AWS::EC2::EIP               EIP1                                                                                              The maximum number of addresses has been reached. (Service: AmazonEC2; Status Code: 400; Error Code: AddressLimitExceeded; Request ID: 3be0081b-a39e-4e48-9516-68532ded92ae)
+2020-06-22 01:32:29.622000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP               EIP1
+2020-06-22 01:32:29.296000+00:00  CREATE_COMPLETE     AWS::Logs::LogGroup         BastionMainLogGroup
+2020-06-22 01:32:28.983000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup         BastionMainLogGroup                                                                               Resource creation Initiated
+2020-06-22 01:32:28.717000+00:00  CREATE_IN_PROGRESS  AWS::Logs::LogGroup         BastionMainLogGroup
+2020-06-22 01:32:24.394000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-mongodb-taskcat-example-my-test-b2302c0d912f49f4b854efca1b3fc0fb-BastionStack-158YCXIDF6N3L  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 22. June 2020 09:33AM
+-----------------------------------------------------------------------------
+
